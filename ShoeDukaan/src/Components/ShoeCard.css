@@ -1,0 +1,36 @@
+.shoe-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.shoe-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.shoe-card button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.shoe-card button:hover {
+  background-color: #0056b3;
+}
+.shoe-card:hover {
+  transform: scale(1.05); /* Slight zoom */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Soft shadow */
+}

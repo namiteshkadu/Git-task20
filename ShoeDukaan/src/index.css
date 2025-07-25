@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+
+.main-container {
+  display: flex;
+  padding: 20px;
+}
+
+.shoes-section {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-y: auto;
+  max-height: 85vh;
+}
+
+.cart-container {
+  flex: 1;
+  margin-left: 20px;
+  background: #f9f9f9;
+  padding: 20px;
+  max-height: 85vh;
+  overflow-y: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.cart-item img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.cart-details {
+  flex-grow: 1;
+}
+
+.qty-btns {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.qty-btns button {
+  background-color: #d9c1a1;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-weight: bold;
+}

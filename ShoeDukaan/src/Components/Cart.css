@@ -1,0 +1,33 @@
+.cart {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 1px solid #ccc;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.cart-controls {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cart-total {
+  font-weight: bold;
+  margin-top: 20px;
+}
